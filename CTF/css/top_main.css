@@ -1,0 +1,51 @@
+.ctf .title {
+    font-weight: 300;
+    font-size: 42px;
+    color: rgb(46, 234, 179);
+    letter-spacing: 10px;
+}
+
+.ctf .title_wrap {
+    margin-top: 110px
+}
+
+@media only screen and (max-width: 1000px) {
+    .ctf .title {
+        font-size: 24px;
+        font-weight: 400;
+    }
+
+    .ctf .title_wrap {
+        margin-top: 150px
+    }
+}
+
+.ctf .info {
+    font-weight: 400;
+    font-size: 32px;
+    color: rgb(78, 102, 95);
+    letter-spacing: 3px;
+}
+
+.ctfcol {
+    background-color: rgba(22, 229, 170, 0.7);
+}
+
+.ctfcol_border {
+    border-top: 120px solid rgba(22, 229, 170, 0.7);
+}
+
+.ctf .timer_wrap{
+    position: fixed;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    font-size: 26px;
+    padding-top: 35px;
+    color: #eee;
+    letter-spacing: 3px;
+    font-weight: 400;
+}
+
+.ctf .timer_wrap span{
+}
